@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 3:startActivity(new Intent(MainActivity.this,CircleRevealAnimationActivity.class));
                         break;
+                    case 4:startActivity(new Intent(MainActivity.this,MoveCurvedActivity.class));
+                        break;
+                    case 5:startActivity(new Intent(MainActivity.this,ZoomActivity.class));
+                        break;
                     default:
                         Toast.makeText(MainActivity.this, "Wrong key", Toast.LENGTH_SHORT).show();
                 }

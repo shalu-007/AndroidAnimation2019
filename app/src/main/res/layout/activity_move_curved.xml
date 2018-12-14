@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:orientation="vertical"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoveCurvedActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/m1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move X"/>
+        <Button
+            android:id="@+id/m2"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move Y"/>
+        <Button
+            android:id="@+id/curve"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Curve"/>
+        <Button
+            android:id="@+id/diagonal"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="X-Y" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ball"/>
+
+</LinearLayout>

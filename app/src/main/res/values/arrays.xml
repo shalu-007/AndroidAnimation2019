@@ -5,5 +5,7 @@
         <item>CrossFade Animation</item>
         <item>CardFlip Animation</item>
         <item>Circle Reveal Animation</item>
+        <item>Move Me Animation</item>
+        <item>Zoom Animation</item>
     </string-array>
 </resources>

@@ -19,7 +19,9 @@
         <activity android:name=".CrossFadeActivity" />
         <activity android:name=".DrawableAnimation" />
         <activity android:name=".CardFlipAnimation" />
-        <activity android:name=".CircleRevealAnimationActivity"></activity>
+        <activity android:name=".CircleRevealAnimationActivity" />
+        <activity android:name=".MoveCurvedActivity" />
+        <activity android:name=".ZoomActivity"></activity>
     </application>
 
 </manifest>
