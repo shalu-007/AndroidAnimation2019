@@ -30,13 +30,14 @@ public class DrawableAnimation extends AppCompatActivity {
                 }
             }
         });
-        ImageView rocketImage = (ImageView) findViewById(R.id.rocket_image);
+        final ImageView rocketImage = (ImageView) findViewById(R.id.rocket_image);
         rocketImage.setBackgroundResource(R.drawable.rocket_animation);
         rocketAnimation = (AnimationDrawable) rocketImage.getBackground();
 
         rocketImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 rocketAnimation.start();
             }
         });

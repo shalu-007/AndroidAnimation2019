@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CrossFadeActivity" />
-        <activity android:name=".DrawableAnimation"></activity>
+        <activity android:name=".DrawableAnimation" />
+        <activity android:name=".CardFlipAnimation" />
+        <activity android:name=".CircleRevealAnimationActivity"></activity>
     </application>
 
 </manifest>

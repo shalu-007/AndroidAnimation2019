@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
                     break;
                     case 1:startActivity(new Intent(MainActivity.this,CrossFadeActivity.class));
                     break;
+                    case 2:startActivity(new Intent(MainActivity.this,CardFlipAnimation.class));
+                        break;
+                    case 3:startActivity(new Intent(MainActivity.this,CircleRevealAnimationActivity.class));
+                        break;
                     default:
                         Toast.makeText(MainActivity.this, "Wrong key", Toast.LENGTH_SHORT).show();
                 }

@@ -26,7 +26,7 @@ public class CrossFadeActivity extends AppCompatActivity {
 //        mShortAnimationDuration = getResources().getInteger(
 //                android.R.integer.config_longAnimTime);
 //
-        mShortAnimationDuration=2000;
+        mShortAnimationDuration=4000;
          crossfade();
     }
     private void crossfade() {
